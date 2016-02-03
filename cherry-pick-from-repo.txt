@@ -1,0 +1,1 @@
+git --git-dir=<sourcedir>/.git format-patch -k -1 --stdout <SHAcommit> | git am -3 -k
